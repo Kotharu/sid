@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_element"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/skyblue"
+  >
+
+<TextView
+    android:id="@+id/popup_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="14dp"
+    android:text="Good Work!!"
+    android:textColor="@color/darkpurple"
+    android:textSize="60sp" />
+
+<Button
+    android:id="@+id/popup_close"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/popup_text"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="49dp"
+    android:background="@color/red"
+    android:text="Close  X" />
+
+</RelativeLayout>

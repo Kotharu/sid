@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">sid</string>
+    <string name="hello_world"> ∀ Ɔ  </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_upper_case">UpperCase</string>
+	<string name="title_activity_lower_case">lowercase</string>
+	<string name="title_activity_numbers">1 2 3 ..</string>
+</resources>
